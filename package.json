@@ -1,0 +1,10 @@
+{
+  "name": "ghar-wali-diwali-gali",
+  "version": "6.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "python3 -m http.server 4178 --directory dist",
+    "check": "node --check dist/residents.js && node --check dist/game.js && node --check dist/holdem.js && node check.mjs && node check-residents.mjs && node check-poker-motion.mjs"
+  }
+}
